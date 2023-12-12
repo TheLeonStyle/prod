@@ -1,0 +1,60 @@
+// 100	Thin (Hairline)
+// 200	Extra Light (Ultra Light)
+// 300	Light
+// 400	Normal (Regular)
+// 500	Medium
+// 600	Semi Bold (Demi Bold)
+// 700	Bold
+// 800	Extra Bold (Ultra Bold)
+// 900	Black (Heavy)
+// 950	Extra Black (Ultra Black)
+
+@font-face {
+	font-family: "FuturaPT";
+	font-display: swap;
+	src: url("../assets/fonts/FuturaCyrillicBold.woff") format("woff");
+	font-weight: 700;
+	font-style: normal;
+}
+@font-face {
+	font-family: "FuturaPT";
+	font-display: swap;
+	src: url("../assets/fonts/FuturaCyrillicDemi.woff") format("woff");
+	font-weight: 600;
+	font-style: normal;
+}
+@font-face {
+	font-family: "FuturaPT";
+	font-display: swap;
+	src: url("../assets/fonts/FuturaCyrillicBook.woff") format("woff");
+	font-weight: 400;
+	font-style: normal;
+}
+@font-face {
+	font-family: "FuturaPT";
+	font-display: swap;
+	src: url("../assets/fonts/FuturaCyrillicHeavy.woff") format("woff");
+	font-weight: 900;
+	font-style: normal;
+}
+@font-face {
+	font-family: "FuturaPT";
+	font-display: swap;
+	src: url("../assets/fonts/FuturaCyrillicLight.woff") format("woff");
+	font-weight: 300;
+	font-style: normal;
+}
+@font-face {
+	font-family: "FuturaPT";
+	font-display: swap;
+	src: url("../assets/fonts/FuturaCyrillicExtraBold.woff") format("woff");
+	font-weight: 800;
+	font-style: normal;
+}
+@font-face {
+	font-family: "FuturaPT";
+	font-display: swap;
+	src: url("../assets/fonts/FuturaCyrillicMedium.woff") format("woff");
+	font-weight: 500;
+	font-style: normal;
+}

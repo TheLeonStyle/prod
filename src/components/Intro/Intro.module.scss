@@ -1,0 +1,65 @@
+@import "../../scss/mixins";
+$tablet: em(991.98); // Планшеты, некоторые телефоны в горизонтальном положении
+$mobile: em(767.98); // Телефоны L
+$mobileSmall: em(479.98); // Телефоны S
+
+.intro {
+	background-image: url("../../assets/img/intro/bg.jpg");
+	background-size: cover;
+	height: 100vh;
+	min-height: 500px;
+	width: 100%;
+	@media (max-width: $tablet) {
+		background-position: right;
+	}
+	&__container {
+		height: 100%;
+		position: relative;
+	}
+	&__wrapper {
+		position: absolute;
+		top: 50%;
+		transform: translateY(-50%);
+
+		display: flex;
+		flex-direction: column;
+	}
+	&__title {
+		@include adaptiveValue("font-size", 80, 48, 1230, 320, 1);
+		font-weight: 500;
+		@include adaptiveValue("line-height", 77, 47, 1230, 320, 1);
+		margin-bottom: rem(20);
+		span {
+			color: #dab944;
+		}
+		@media (max-width: $mobileSmall) {
+		}
+	}
+	&__subtitle {
+		max-width: rem(600);
+		@include adaptiveValue("font-size", 24, 21, 767.98, 320, 1);
+		line-height: rem(32);
+		margin-bottom: rem(50);
+	}
+	&__footer {
+	}
+	&__button {
+		color: #f0c47f;
+		font-size: rem(22);
+		line-height: 1.55;
+		font-weight: 500;
+
+		border: 1px solid #e6bc68;
+		padding: 7px 27px;
+
+		transition:
+			border-color 0.3s ease 0s,
+			color 0.3s ease 0s;
+
+		&:focus,
+		&:hover {
+			border-color: #ffffff;
+			color: #ffffff;
+		}
+	}
+}

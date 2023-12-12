@@ -1,0 +1,31 @@
+{
+  "index": {
+    "navigation": [
+      {
+        "title": "о нас"
+      },
+      {
+        "title": "услуги",
+        "array": ["Event", "Marketing and branding", "Photo and video", "Music and dance"]
+      },
+      {
+        "title": "команда"
+      },
+      {
+        "title": "партнёры"
+      },
+      {
+        "title": "контакты"
+      },
+      {
+        "title": "школа"
+      }
+    ],
+    "intro": [
+      {
+        "subtitle": "Создаём качественный продакшн для представителей творческой индустрии и коммерческих брендов",
+        "button": "Оставить заявку"
+      }
+    ]
+  }
+}

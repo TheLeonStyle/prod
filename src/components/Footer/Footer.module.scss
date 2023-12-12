@@ -1,0 +1,110 @@
+@use "sass:math";
+
+@import "../../scss/mixins.scss";
+
+$tablet: em(991.98); // Планшеты, некоторые телефоны в горизонтальном положении
+$mobile: em(767.98); // Телефоны L
+$mobileSmall: em(479.98); // Телефоны S
+
+.footer {
+	height: 100vh;
+	max-height: 600px;
+	min-height: 510px;
+
+	.footer__container {
+		padding-top: 50px;
+		display: flex;
+		flex-direction: column;
+		height: 80%;
+		@media (max-width: $tablet) {
+			height: auto;
+		}
+
+		&_big {
+			max-width: 100%;
+			margin-bottom: 30px;
+		}
+	}
+	&__top {
+		flex: 1;
+
+		display: flex;
+		justify-content: space-between;
+		gap: rem(20);
+		align-items: center;
+
+		@media (max-width: $mobileSmall) {
+			flex-direction: column;
+		}
+	}
+	&__logo {
+		width: rem(100);
+		height: rem(40);
+	}
+	&__socials {
+		display: flex;
+		align-items: center;
+		gap: rem(30);
+	}
+	&__social {
+		@include adaptiveValue("width", 55, 44, 767.98, 320, 1);
+		@include adaptiveValue("height", 55, 44, 767.98, 320, 1);
+		img {
+			width: 100%;
+			height: 100%;
+		}
+	}
+	&__contacts {
+		padding-top: 30px;
+		@include adaptiveValue("padding-bottom", 100, 50, 767.98, 320, 1);
+
+		display: flex;
+		justify-content: space-between;
+
+		@media (max-width: $tablet) {
+			flex-direction: column;
+			row-gap: 30px;
+		}
+	}
+	&__contact {
+		display: flex;
+		flex-direction: column;
+	}
+	&__title {
+		flex: 1;
+		font-size: rem(20);
+		line-height: 1.35;
+		font-weight: 600;
+	}
+	&__link {
+		color: inherit;
+		font-size: rem(18);
+		font-weight: 400;
+		opacity: 0.7;
+	}
+	&__bottom {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+
+		font-size: rem(14);
+		font-weight: 700;
+
+		padding-bottom: 30px;
+
+		@media (max-width: $mobile) {
+			flex-direction: column;
+			align-items: flex-start;
+			row-gap: rem(10);
+		}
+	}
+	&__copy {
+		color: #fcf9f9;
+		p:not(:last-child) {
+			margin-bottom: rem(5);
+		}
+	}
+	&__owner {
+		color: #757474;
+	}
+}
