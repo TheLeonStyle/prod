@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/prod/static/css/main.dc4d9611.css",
+    "main.js": "/prod/static/js/main.e8db5a2e.js",
+    "static/media/bg.jpg": "/prod/static/media/bg.aeef64647523005b1bfa.jpg",
+    "static/media/FuturaCyrillicExtraBold.woff": "/prod/static/media/FuturaCyrillicExtraBold.d5327f27b104cd252527.woff",
+    "static/media/FuturaCyrillicDemi.woff": "/prod/static/media/FuturaCyrillicDemi.1fa09eb5be28d5aded5a.woff",
+    "static/media/FuturaCyrillicBold.woff": "/prod/static/media/FuturaCyrillicBold.5f706378d8f9a8c7b274.woff",
+    "static/media/FuturaCyrillicLight.woff": "/prod/static/media/FuturaCyrillicLight.771add7f65bc0d53ca8b.woff",
+    "static/media/FuturaCyrillicMedium.woff": "/prod/static/media/FuturaCyrillicMedium.48dfecb562dfd789a300.woff",
+    "static/media/FuturaCyrillicHeavy.woff": "/prod/static/media/FuturaCyrillicHeavy.c44d5abde1e36c6628eb.woff",
+    "static/media/FuturaCyrillicBook.woff": "/prod/static/media/FuturaCyrillicBook.376720780ed67df2bcc7.woff",
+    "index.html": "/prod/index.html",
+    "static/media/logo.svg": "/prod/static/media/logo.b654769afc7dbd89379fee23ccc1a230.svg",
+    "main.dc4d9611.css.map": "/prod/static/css/main.dc4d9611.css.map",
+    "main.e8db5a2e.js.map": "/prod/static/js/main.e8db5a2e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.dc4d9611.css",
+    "static/js/main.e8db5a2e.js"
+  ]
+}
