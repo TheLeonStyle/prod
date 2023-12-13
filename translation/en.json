@@ -25,6 +25,69 @@
         "subtitle": "Our main aim is to create high quality productions for representatives of the creative industry and commercial brands.",
         "button": "Contact us"
       }
-    ]
+    ],
+    "about": {
+      "title": "About us",
+      "subtitle": "AMP is a full-cycle producing center providing digital and production expertise to our finest clientele.",
+      "array": [
+        {
+          "strong": "Our methods",
+          "text": "of delivering this includes,effective positioning strategy and a unique image using modern technologies and promotion methods."
+        },
+        {
+          "strong": "Our team",
+          "text": "is implementing the most ambitious ideas by using the most competitive videos, music videos, movies, mixing and recording music, organizing concerts and different kinds of events on the market.We are perpetually integrating any tools or means in order to make all our products unique."
+        },
+        {
+          "strong": "Creative approach,",
+          "text": "professionalism and knowledge of modern trends are the three pillars of our success. We will assist you in not only impressing your audience but in also making sure that you stay at the top in becoming trend creators."
+        }
+      ]
+    },
+    "services": {
+      "title": "Services",
+      "array": [
+        {
+          "image": "01",
+          "title": "Music and dance",
+          "list": [
+            "Assisting in making and recording music",
+            "Voice staging",
+            "Providing back dancers at concerts and events",
+            "Creation of Choreography"
+          ]
+        },
+        {
+          "image": "02",
+          "title": "Photo and video",
+          "list": [
+            "Video, photography, and special projects",
+            "Postproduction to enhance the effect",
+            "Partner network of filming studios",
+            "Providing stylists and makeup artists"
+          ]
+        },
+        {
+          "image": "03",
+          "title": "Marketing and branding",
+          "list": [
+            "Brand promotion",
+            "Creating corporate style",
+            "Formation and management of reputation",
+            "Partnerships with the media and public organizations"
+          ]
+        },
+        {
+          "image": "04",
+          "title": "Events",
+          "list": [
+            "Organization of concerts and events",
+            "Development of concepts and scenarios",
+            "Full support - from concept development, implementation and to final product",
+            "Working with partners and celebrities"
+          ]
+        }
+      ]
+    }
   }
 }
