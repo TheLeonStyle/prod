@@ -1,0 +1,30 @@
+{
+  "index": {
+    "navigation": [
+      {
+        "title": "about"
+      },
+      {
+        "title": "services"
+      },
+      {
+        "title": "team"
+      },
+      {
+        "title": "partners"
+      },
+      {
+        "title": "contacts"
+      },
+      {
+        "title": "school"
+      }
+    ],
+    "intro": [
+      {
+        "subtitle": "Our main aim is to create high quality productions for representatives of the creative industry and commercial brands.",
+        "button": "Contact us"
+      }
+    ]
+  }
+}

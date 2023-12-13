@@ -1,0 +1,33 @@
+@import "../../scss/mixins";
+$tablet: em(991.98); // Планшеты, некоторые телефоны в горизонтальном положении
+$mobile: em(767.98); // Телефоны L
+$mobileSmall: em(479.98); // Телефоны S
+
+.about {
+	padding: rem(90) 0 rem(30);
+	&__container {
+		display: flex;
+		flex-direction: column;
+		gap: rem(30);
+	}
+	&__top {
+		// margin-bottom: rem(30);
+	}
+	&__wrapper {
+		display: flex;
+		justify-content: space-between;
+		gap: rem(10);
+		@media (max-width: $tablet) {
+			flex-direction: column;
+		}
+	}
+	&__text {
+		max-width: 360px;
+		font-size: rem(18);
+		line-height: 1.65;
+
+		@media (max-width: $tablet) {
+			max-width: 100%;
+		}
+	}
+}

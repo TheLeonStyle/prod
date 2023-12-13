@@ -4,6 +4,15 @@ import Header from './components/Header/Header';
 import HeaderPopup from './components/HeaderPopup/HeaderPopup';
 import Intro from './components/Intro/Intro';
 import Footer from './components/Footer/Footer';
+import About from './components/About/About';
+import Services from './components/Services/Services';
+import Form from './components/Form/Form';
+import Mission from './components/Mission/Mission';
+import Quote from './components/Quote/Quote';
+import Video from './components/Video/Video';
+import Team from './components/Team/Team';
+import Partners from './components/Partners/Partners';
+import Cooperation from './components/Cooperation/Cooperation';
 
 function App() {
   const [burgerActive, setBurgerActive] = useState(false);
@@ -21,7 +30,9 @@ function App() {
     // Получить выбранный из json файла
     const fetchTranslation = async () => {
       try {
-        const response = await fetch(`./translation/${selectedLanguage}.json`);
+        const response = await fetch(
+          `${process.env.PUBLIC_URL}/translation/${selectedLanguage}.json`,
+        );
         const translationData = await response.json();
 
         setTranslation(translationData);
@@ -56,7 +67,16 @@ function App() {
       )}
 
       <main className={styles.app__main}>
-        <Intro array={translation?.index?.intro || []} />
+        {/* <Intro translationArray={translation?.index?.intro || []} />
+        <About translationObj={translation?.index?.about || []} />
+        <Services translationObj={translation?.index?.services || []} /> */}
+        <Form />
+        <Mission />
+        <Quote />
+        <Video />
+        <Team />
+        <Partners />
+        <Cooperation />
       </main>
 
       <Footer />

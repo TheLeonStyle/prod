@@ -61,4 +61,16 @@ $mobileSmall: em(479.98); // Телефоны S
 			color: #f0c47f;
 		}
 	}
+
+	&__lists {
+		padding: 30px 0 10px;
+	}
+	&__list {
+		&:not(:last-child) {
+			margin-bottom: 20px;
+		}
+		// padding: 40px 0 20px;
+	}
+	&__link {
+	}
 }

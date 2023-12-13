@@ -1,0 +1,13 @@
+@import "../../scss/mixins";
+.title {
+	@include adaptiveValue("font-size", 62, 28, 1230, 320, 1);
+	font-weight: 700;
+	line-height: 1.23;
+	margin-bottom: rem(23);
+}
+.subtitle {
+	color: #f0c47f;
+	font-size: rem(24);
+	font-weight: 600;
+	line-height: 1.55;
+}

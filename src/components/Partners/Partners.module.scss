@@ -1,0 +1,49 @@
+@import "../../scss/mixins";
+$tablet: em(991.98); // Планшеты, некоторые телефоны в горизонтальном положении
+$mobile: em(767.98); // Телефоны L
+$mobileSmall: em(479.98); // Телефоны S
+
+.partners {
+	padding: 40px 20px;
+}
+.partners__container {
+	display: flex;
+	flex-direction: column;
+	gap: rem(20);
+}
+.partners__wrapper {
+	display: flex;
+	align-items: center;
+	// justify-content: space-between;
+	gap: rem(15);
+	flex-wrap: wrap;
+
+	@media (max-width: $tablet) {
+		justify-content: center;
+	}
+
+	// display: grid;
+	// grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+	// align-items: center;
+}
+.partners__link {
+	// flex: 1 1 auto;
+	img {
+		width: 100%; /* Ширина изображения внутри ссылки */
+		height: 100%;
+		display: block;
+	}
+
+	&_cover {
+		height: 150px;
+		width: 300px;
+		img {
+			object-fit: cover;
+		}
+		// img {
+		// 	width: 100%; /* Ширина изображения внутри ссылки */
+		// 	height: 100%;
+		// 	display: block;
+		// }
+	}
+}

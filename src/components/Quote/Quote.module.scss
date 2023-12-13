@@ -1,0 +1,58 @@
+@use "sass:math";
+
+@import "../../scss/mixins";
+$tablet: em(991.98); // Планшеты, некоторые телефоны в горизонтальном положении
+$mobile: em(767.98); // Телефоны L
+$mobileSmall: em(479.98); // Телефоны S
+
+.quote {
+	background: url("../../assets/img/quote/bg.jpg");
+	background-size: cover;
+	height: 100vh;
+	min-height: 300px;
+	max-height: 1000px;
+
+	@media (max-width: $mobile) {
+		background: url("../../assets/img/quote/bg_mobile.jpg") no-repeat;
+		background-position: 0 40%;
+		background-size: cover;
+		// height: 733px;
+		@include adaptiveValue("height", 733, 500, 767.98, 320, 1);
+	}
+
+	&__container {
+		display: flex;
+		align-items: center;
+
+		@media (max-width: $mobile) {
+			align-items: flex-end;
+		}
+		height: 100%;
+	}
+	&__blockquote {
+		// padding-bottom: 100px;
+		@include adaptiveValue("padding-bottom", 100, 20, 767.98, 320, 1);
+	}
+	&__quote {
+		max-width: rem(610);
+		@include adaptiveValue("font-size", 32, 26, 1230, 320, 1);
+		font-weight: 600;
+		line-height: math.div(34, 32);
+		margin-bottom: rem(50);
+	}
+	&__footer {
+	}
+	&__author {
+		color: #f0c47f;
+		font-size: rem(16);
+		font-weight: 400;
+		line-height: math.div(24, 24);
+		display: flex;
+		flex-direction: column;
+		cite {
+			font-size: rem(24);
+			color: #fff;
+			font-style: normal;
+		}
+	}
+}

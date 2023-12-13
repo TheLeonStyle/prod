@@ -1,0 +1,72 @@
+@import "../../scss/mixins.scss";
+$tablet: em(991.98); // Планшеты, некоторые телефоны в горизонтальном положении
+$mobile: em(767.98); // Телефоны L
+$mobileSmall: em(479.98); // Телефоны S
+.services {
+	padding: 90px 0;
+
+	&__container {
+		display: flex;
+		justify-content: space-between;
+		@media (max-width: $tablet) {
+			flex-direction: column;
+		}
+	}
+	&__text {
+	}
+	&__items {
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+		gap: rem(20);
+		@media (max-width: $mobile) {
+			grid-template-columns: auto;
+		}
+	}
+	&__item {
+		max-width: rem(380);
+		display: flex;
+		flex-direction: column;
+		row-gap: 20px;
+
+		color: inherit;
+
+		background: rgb(15, 21, 21);
+		background: linear-gradient(45deg, rgba(15, 21, 21, 1) 0%, rgba(2, 2, 2, 1) 100%);
+		padding: 30px 20px;
+		transition: background 0.3s ease 0s;
+
+		&:hover {
+			background: linear-gradient(45deg, #000 0%, #000 100%);
+		}
+		@media (max-width: $tablet) {
+			max-width: 100%;
+		}
+	}
+	&__icon {
+		width: 65px;
+		height: 65px;
+		img {
+			width: 100%;
+			height: 100%;
+		}
+	}
+	&__title {
+		font-size: rem(24);
+		font-weight: 600;
+		line-height: 1.55;
+	}
+	&__lists {
+	}
+	&__list {
+		font-size: rem(18);
+		line-height: 1.65;
+		position: relative;
+		padding-left: 12px;
+		&::after {
+			content: "-";
+			position: absolute;
+			top: 0;
+			left: 0;
+		}
+	}
+}

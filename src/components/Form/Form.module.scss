@@ -1,0 +1,130 @@
+@import "../../scss/mixins";
+$tablet: em(991.98); // Планшеты, некоторые телефоны в горизонтальном положении
+$mobile: em(767.98); // Телефоны L
+$mobileSmall: em(479.98); // Телефоны S
+
+.form {
+	padding: 50px 0;
+	background: url("../../assets/img/form/bg.jpg");
+	background-size: cover;
+	&__container {
+		display: flex;
+
+		@media (max-width: $mobile) {
+			flex-direction: column;
+		}
+	}
+	&__text {
+		padding: 30px 0;
+	}
+	&__subtitle {
+		max-width: rem(310);
+
+		color: #ffffff;
+		font-size: 18px;
+		line-height: 1.65;
+	}
+	&__form {
+		display: flex;
+		flex-direction: column;
+		gap: rem(15);
+		width: 100%;
+		color: #707070;
+	}
+	&__select {
+		appearance: none;
+		position: relative;
+		&::after {
+			content: "123";
+			position: absolute;
+			top: 50%;
+			right: 10px;
+			transform: translateY(-50%);
+			pointer-events: none;
+			width: 10px;
+			height: 10px;
+		}
+	}
+	&__option {
+	}
+	&__inner {
+		position: relative;
+	}
+	&__placeholder {
+		position: absolute;
+		top: 50%;
+		transform: translateY(-50%);
+		z-index: 0;
+		pointer-events: none;
+		font-size: rem(20);
+
+		transition:
+			top 0.3s ease 0s,
+			transform 0.3s ease 0s,
+			font-size 0.3s ease 0s;
+		&.active {
+			top: 0;
+			transform: translateY(0);
+			font-size: rem(16);
+		}
+	}
+	&__input {
+		color: inherit;
+		font-size: 16px;
+		line-height: 1.33;
+
+		background: none;
+		height: 60px;
+		width: 100%;
+		border-bottom: 2px solid #fff;
+		&_phone {
+			input {
+				height: 100% !important;
+				width: 100% !important;
+				background: none !important;
+				border: none !important;
+
+				color: inherit !important;
+				font-size: 16px !important;
+				line-height: 1.33 !important;
+			}
+
+			& > div {
+				background: none !important;
+				border: none !important;
+				& > div {
+					background: none !important;
+
+					&:hover {
+						background: none !important;
+						border: none !important;
+					}
+				}
+			}
+		}
+	}
+
+	&__submit {
+		// font-size: rem(16);
+		@include adaptiveValue("font-size", 16, 12, 767.98, 320, 1);
+		color: #000000;
+		font-weight: 500;
+		text-transform: uppercase;
+
+		background-color: #f0c47f;
+		cursor: pointer;
+
+		padding: 14px 20px;
+		&:hover,
+		&:focus {
+			background-color: #fff;
+		}
+	}
+	&__label {
+		font-size: 14px;
+		color: #ffffff;
+	}
+	&__policy {
+		color: #f0c47f;
+	}
+}
