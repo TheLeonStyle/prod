@@ -88,6 +88,180 @@
           ]
         }
       ]
+    },
+    "form": {
+      "title": "Find out the cost of the project",
+      "subtitle": "Write to us about your project and we will contact you soon to discuss the details",
+      "array": {
+        "options": [
+          "Select the service you are interested in",
+          "Music and dance",
+          "Photo and video",
+          "Events",
+          "Branding / Marketing",
+          "Other"
+        ],
+        "name": "Name",
+        "email": "E-mail or link to a social network",
+        "submit": "free consultation",
+        "policy": {
+          "text": "By submitting a request, you accept the terms of the",
+          "privacy": "privacy policy"
+        }
+      }
+    },
+    "mission": {
+      "title": "Mission",
+      "firstSuptitle": "As the AMP team,our objective is to make sure that you succeed regardless of your age,your status in society (where you live,your class bracket) or even your connections or lack thereof. We will reveal your truest potential and make it a reality.",
+      "secondSuptitle": "Every project is approached with intensity and passion with a persistent intention in order to not only find the best solution but to also fulfill all your dreams and goals.",
+      "text": "AMP is a multi-purpose producing center. We have all tools within our reach in order to produce events, support artists and promote commercial brands."
+    },
+    "quote": {
+      "quote": "«Unlike the notorious motivational speakers, we know what the word «difficulty» means, and we are experts about difficulties»",
+      "author": "Arkadi Mailyan",
+      "role": "general producer"
+    },
+    "team": {
+      "title": "Team",
+      "array": [
+        {
+          "image": "1",
+          "name": "Yulia Chorna",
+          "role": "Event Producer",
+          "subtitle": "Event management expert. Graduate of Event Education PRO. Since 2021, she has been involved in the organization of forums, conferences, congresses, strategic sessions, seminars, master classes, business clubs, weddings, immersive shows, and birthdays. She has a large acting database. She has organized over 50 events, including the Pharma Ball 2022, the Online Education Leaders Awards, and the Medical Conference."
+        },
+        {
+          "image": "2",
+          "name": "Marie Boro",
+          "role": "Concept Designer, Creative Producer",
+          "subtitle": "Marketing and design expert, concept designer. Co-founder of ThermoUp (Exporter of the Year 2021). Has been involved in packaging personal brands and businesses since 2014. Helped to package a business for entry into the European market. Became a resident of SKOLKOVO. Packaged and launched over 100 international companies. Leads international projects (Georgia, Dubai, Thailand, Germany)"
+        },
+        {
+          "image": "3",
+          "name": "Maria Kozharinova",
+          "role": "Media Researcher",
+          "subtitle": "One of the few digital media and 'infobusiness' researchers in Russia. Graduated from a bachelor's degree in cultural studies and is a master's student at the Faculty of Media at the Higher School of Economics. She has many years of experience in analyzing media processes and knows all about the leading trends in the world of new media. Author of a number of academic articles on social media and cinema, published in leading Russian and foreign scientific journals."
+        },
+        {
+          "image": "4",
+          "name": "Daria Tuzova",
+          "role": "Creative Producer",
+          "subtitle": "Master of International Economic Relations at the Financial University under the Government of the Russian Federation. Organizer of presentations of clips for Russian stars. Organizer of open-air festivals. Editor of the online concert 'Muz-Kach' of the Music Box Russia channel."
+        },
+        {
+          "image": "5",
+          "name": "Yulia Vidyapina",
+          "role": "PR Director",
+          "subtitle": "Since 2007, she has conducted several political election campaigns. Developed candidate promotion concepts. Managed several regional weekly newspapers. Created a content plan for the promotion of large companies, experts, politicians, and public figures."
+        },
+        {
+          "image": "6",
+          "name": "Alisa Kurbatova",
+          "role": "Director",
+          "subtitle": "Graduate of University of Maryland'12. Directed the festival from the studio Born to Dance (USA). Participated in the Measures of our Live project (live portraits). Worked as a director and artist at the Le Noces du Moulin street festival (France). Artist of Slava Polunin's Snow Show. Has written over 100 songs in various genres, both Russian and English."
+        },
+        {
+          "image": "7",
+          "name": "Karolina Babayan",
+          "role": "Stylist",
+          "subtitle": "People's stylist of the 'Fashion Sentence' on Channel One. Expert in stylization of photo and video projects turnkey: from brainstorming to selecting locations and looks. Specializes in creating a stage image.Consultant on style online and offline. Shopping accompaniment. Wardrobe analysis.Fashion consultations: main trends of the season, the perfect basic wardrobe."
+        },
+        {
+          "image": "8",
+          "name": "Alexander Bodyansky",
+          "role": "Choreographer",
+          "subtitle": "Participant of the ballet 'Todes'. Danced in the ballet of Katya Lel, Philip Kirkorov, at Eurovision with Angelica Agurbash and Dmitry Koldun. Artist of the musical 'Chicago'. Collaborated with choreographers M. Michaels, T. Wilson and F. Evangelinos. Works in the styles of jazz-modern, hip-hop and others."
+        },
+        {
+          "image": "9",
+          "name": "Lina Volchenok",
+          "role": "Line producer",
+          "subtitle": "Has extensive experience in producing broadcasting programs on television. Now, Lina runs her own production studio, conducts master classes on promotion of personal brands. Helps bloggers and experts grow their social media audience."
+        },
+        {
+          "image": "10",
+          "name": "Lyudmila Alexandrova",
+          "role": "Vocal Coach, Vocal Producer",
+          "subtitle": "Graduated from the Liceu Conservatory (Barcelona). Advanced training: AKHÍ, Fonograf, music production at Moscow Music School, a course for teachers Karina Cooper, CVT. Recorded the album 'Open', singles 'Kill U' and 'Dreamy'. More than 10 years of teaching experience."
+        },
+        {
+          "image": "11",
+          "name": "Egor Maltsev",
+          "role": "Psychologist",
+          "subtitle": "Clinical psychologist, practitioner of short-term therapy. Ericksonian coach, individual and family consultant, corporate trainer of a large IT company, member of the 'Europеan brief therapy association'."
+        },
+        {
+          "image": "12",
+          "name": "Roman Potapov",
+          "role": "Film Producer",
+          "subtitle": "More than 50 projects implemented. Worked with Gosha Kutsenko and Dmitry Dibrov. Created a series of advertising videos for the Toy.ru store. Many years of experience in preparing expeditions and filming abroad. Organization of filming in closed government agencies. Attracts stars of any level to projects."
+        },
+        {
+          "image": "13",
+          "name": "Maxim Panteleev",
+          "role": "Sound Producer",
+          "subtitle": "At the age of 18, he became the composer of a full-length film. Collaborated with Dani Milokhin, Yanger, Dasha Volosevich, Raim Trigger, Sergey Shtep. Worked with directors Timofey Zhalnin, Alena Oleinik. He composed the musical accompaniment for the trailers 'Vij-2. The Mystery of the Dragon's Seal', 'Troyes'."
+        },
+        {
+          "image": "14",
+          "name": "Lyubov Shelgorn",
+          "role": "Screenwriter",
+          "subtitle": "Expert in creating social videos. Masterfully implements the customer's ideas, uses unexpected techniques. Differs in unconventional creative thinking. Develops plot lines in detail for videos and full-length films, theatrical performances, or various events."
+        },
+        {
+          "image": "15",
+          "name": "Svyatoslav Chernuho",
+          "role": "Concert Producer",
+          "subtitle": "Organizes concerts of the BGA 'Pesnyary' for more than five years. Ten years in the show business of Russia and Dubai. Organized events: autograph session of the drummer of RAMMSTEIN Christoph Schneider; master class of the star Jeff Berlin; meeting with guitarist Matthias Jabs (Scorpions), show Ron Bumblefoot Thal."
+        },
+        {
+          "image": "16",
+          "name": "Valeria Aksenova",
+          "role": "Producer, Director",
+          "subtitle": "Worked with Abrau Durso, AFK Sistema, companies Detsky Mir, Yokogawa Electric Corporation, DHL, RosGosSport, RosAvtoDor, Hearst Shkulev Media, etc. Expert in organizing concerts of Russian and foreign performers in Russia, work on projects: Eurovision, MuzTV award, MTV award, Old and New Songs about the Main, Song of the Year, etc."
+        },
+        {
+          "image": "17",
+          "name": "Ani Davtyan",
+          "role": "Lawyer",
+          "subtitle": "Three higher legal educations. Worked as a leading lawyer in the judicial department of VTB-Armenia Bank. Lawyer at the PK&Partners law firm LLC. Legal researcher within the framework of the Legal Innovation Lab of Armenia project. Lecturer in civil law and Roman law at the Russian-Armenian University."
+        },
+        {
+          "image": "18",
+          "name": "Anahit Markosyan",
+          "role": "Head of Digital Direction",
+          "subtitle": "Seven years of experience in the field of SMM, about 30 implemented projects. Worked as a consultant-expert in the Armenian government. Headed the communications and SMM department of a major pharmacy chain. Increased online sales by 37%. SMM specialist of the educational project 'Lookaround' ('Rosatom')."
+        },
+        {
+          "image": "19",
+          "name": "Yulia Tremaskina",
+          "role": "Executive Producer",
+          "subtitle": "Music and event producer, booking agent, over 10 years of experience. Projects: Digital show MuzKach. Festival 'Slavic Bazaar' in Vitebsk. Festivals ALFA FUTURE PEOPLE, AFP Snow Edition. Music shows, awards and special projects of the Europa Plus TV, Channel One Music and Musicbox channels. Concerts of foreign and Russian artists in Russia and abroad. Olympic and Paralympic torch relay (Sochi 2014), FIFA World Cup 2018. Organization of events."
+        }
+      ]
+    },
+    "partners": {
+      "title": "Partners"
+    },
+    "cooperation": {
+      "title": "Сooperation",
+      "subtitle": "The AMP team acknowledges the meaning of its activity wider than just business. So if you develop social projects and want to cooperate with us, just send your request to us by mail.",
+      "suptitle": "We are ready to cooperate with NGOs, charitable and social organizations."
+    },
+    "footer": {
+      "item": "For any questions",
+      "item2": {
+        "name": "Arkadi",
+        "role": "CEO"
+      },
+      "item3": {
+        "name": "Julia",
+        "role": "PR and collaboration"
+      },
+      "item4": {
+        "name": "Ani",
+        "role": "Lawyer"
+      }
     }
   }
 }
