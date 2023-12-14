@@ -2,23 +2,29 @@
   "index": {
     "navigation": [
       {
-        "title": "о нас"
+        "title": "о нас",
+        "link": "about"
       },
       {
         "title": "услуги",
-        "array": ["Event", "Marketing and branding", "Photo and video", "Music and dance"]
+        "array": ["Event", "Marketing and branding", "Photo and video", "Music and dance"],
+        "link": "services"
       },
       {
-        "title": "команда"
+        "title": "команда",
+        "link": "team"
       },
       {
-        "title": "партнёры"
+        "title": "партнёры",
+        "link": "partners"
       },
       {
-        "title": "контакты"
+        "title": "контакты",
+        "link": "footer"
       },
       {
-        "title": "школа"
+        "title": "школа",
+        "link": "school"
       }
     ],
     "intro": [
