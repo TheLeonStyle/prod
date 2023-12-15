@@ -72,7 +72,7 @@
       "title": "Services",
       "array": [
         {
-          "image": "01",
+          "image": "1",
           "title": "Music and dance",
           "list": [
             "Assisting in making and recording music",
@@ -82,7 +82,7 @@
           ]
         },
         {
-          "image": "02",
+          "image": "2",
           "title": "Photo and video",
           "list": [
             "Video, photography, and special projects",
@@ -92,7 +92,7 @@
           ]
         },
         {
-          "image": "03",
+          "image": "3",
           "title": "Marketing and branding",
           "list": [
             "Brand promotion",
@@ -102,7 +102,7 @@
           ]
         },
         {
-          "image": "04",
+          "image": "4",
           "title": "Events",
           "list": [
             "Organization of concerts and events",
@@ -338,7 +338,7 @@
         },
         "link": {
           "text": "catalog",
-          "link": "catalog"
+          "link": "services"
         }
       }
     },
@@ -428,7 +428,7 @@
         },
         "link": {
           "text": "Каталог",
-          "link": "catalog"
+          "link": "services"
         }
       }
     },
@@ -518,7 +518,7 @@
         },
         "link": {
           "text": "catalog",
-          "link": "catalog"
+          "link": "services"
         }
       }
     },
@@ -632,7 +632,7 @@
         },
         "link": {
           "text": "catalog",
-          "link": "catalog"
+          "link": "services"
         }
       }
     },
@@ -750,6 +750,150 @@
           "firstSuptitle": "We have",
           "strong": "a pool of effective media",
           "lastSuptitle": "in which native publications about your brand will appear."
+        }
+      ]
+    }
+  },
+  "briff": {
+    "navigation": [
+      {
+        "title": "Home",
+        "link": "/"
+      },
+      {
+        "title": "team",
+        "link": "team"
+      },
+      {
+        "title": "event",
+        "link": "footer"
+      }
+    ],
+    "intro": {
+      "image": "events",
+      "title": "Brif",
+      "subtitle": "Organization of events of any scale in Russia and abroad on a turnkey basis"
+    },
+    "form": {
+      "button": "send",
+      "errorValide": "Fill in all the fields",
+      "errorValideSubtitle": "Fill in the field",
+      "policy": {
+        "text": "By leaving a request you accept the",
+        "link": "privacy policy"
+      },
+      "array": [
+        {
+          "title": "1. Last name and first name*",
+          "id": "name",
+          "type": "text",
+          "placeholder": "Ivanov Ivan",
+          "valide": "true"
+        },
+        {
+          "title": "2. Email*",
+          "id": "email",
+          "type": "email",
+          "placeholder": "Your Email",
+          "valide": "true"
+        },
+        {
+          "title": "3. Telephone*",
+          "id": "phone",
+          "type": "phone",
+          "placeholder": "Your Telephone",
+          "valide": "true"
+        },
+        {
+          "title": "4. What kind of event do you want to hold?",
+          "checkbox": "true",
+          "array": [
+            {
+              "id": "Corporate",
+              "title": "Corporate event"
+            },
+            {
+              "id": "Concert",
+              "title": "Concert"
+            },
+            {
+              "id": "Conference",
+              "title": "Conference"
+            },
+            {
+              "id": "Business event",
+              "title": "Business event"
+            },
+            {
+              "id": "Presentation",
+              "title": "Presentation"
+            },
+            {
+              "id": "Business training",
+              "title": "Business training"
+            },
+            {
+              "id": "Online event",
+              "title": "Online event"
+            },
+            {
+              "id": "Birthday",
+              "title": "Birthday"
+            },
+            {
+              "id": "Show program",
+              "title": "Show program"
+            },
+            {
+              "id": "Other",
+              "title": "Other"
+            }
+          ]
+        },
+        {
+          "title": "5. What is the estimated budget for the event?",
+          "id": "budget",
+          "type": "number"
+        },
+        {
+          "title": "6. In which country/city are you planning to organize the event?",
+          "id": "locate",
+          "type": "text"
+        },
+        {
+          "title": "7. Date of the event?",
+          "id": "date",
+          "type": "number"
+        },
+        {
+          "title": "8. What is the main purpose of this event?",
+          "id": "target",
+          "type": "text"
+        },
+        {
+          "title": "9. What are your expectations from the event?",
+          "id": "expectations",
+          "type": "text"
+        },
+        {
+          "title": "10. How many participants do you plan to invite to the event?",
+          "id": "quantity",
+          "type": "number"
+        },
+        {
+          "title": "11. Will you need transportation services for event participants?",
+          "id": "transport",
+          "type": "text"
+        },
+        {
+          "title": "12. Will the event require individual interpreters or special equipment for simultaneous interpretation?",
+          "id": "translator",
+          "type": "text"
+        },
+        {
+          "title": "13. Do you have any additional information that you would like to add to facilitate the event?",
+          "id": "info",
+          "type": "text"
         }
       ]
     }
