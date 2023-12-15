@@ -2,22 +2,46 @@
   "index": {
     "navigation": [
       {
-        "title": "about"
+        "title": "about",
+        "link": "about"
       },
       {
-        "title": "services"
+        "title": "services",
+        "array": [
+          {
+            "text": "Event",
+            "link": "events"
+          },
+          {
+            "text": "Marketing and branding",
+            "link": "music_dance"
+          },
+          {
+            "text": "Photo and video",
+            "link": "photo_and_video"
+          },
+          {
+            "text": "Music and dance",
+            "link": "marketing_and_brandin"
+          }
+        ],
+        "link": "services"
       },
       {
-        "title": "team"
+        "title": "team",
+        "link": "team"
       },
       {
-        "title": "partners"
+        "title": "partners",
+        "link": "partners"
       },
       {
-        "title": "contacts"
+        "title": "contacts",
+        "link": "footer"
       },
       {
-        "title": "school"
+        "title": "school",
+        "link": "school"
       }
     ],
     "intro": [
@@ -262,6 +286,472 @@
         "name": "Ani",
         "role": "Lawyer"
       }
+    }
+  },
+  "services": {
+    "navigation": [
+      {
+        "title": "services",
+        "array": [
+          {
+            "text": "Event",
+            "link": "events"
+          },
+          {
+            "text": "Marketing and branding",
+            "link": "music_dance"
+          },
+          {
+            "text": "Photo and video",
+            "link": "photo_and_video"
+          },
+          {
+            "text": "Music and dance",
+            "link": "marketing_and_brandin"
+          }
+        ],
+        "link": "services"
+      },
+      {
+        "title": "team",
+        "link": "team"
+      },
+      {
+        "title": "partners",
+        "link": "partners"
+      },
+      {
+        "title": "contacts",
+        "link": "footer"
+      }
+    ]
+  },
+  "events": {
+    "intro": {
+      "image": "events",
+      "title": "Events",
+      "subtitle": "Organization of events of any scale in Russia and abroad on a turnkey basis",
+      "obj": {
+        "button": {
+          "text": "Full out the bbrief",
+          "link": "briff"
+        },
+        "link": {
+          "text": "catalog",
+          "link": "catalog"
+        }
+      }
+    },
+    "services": {
+      "title": "Our services",
+      "array": [
+        {
+          "image": "1",
+          "title": "Business events"
+        },
+        {
+          "image": "2",
+          "title": "Online events"
+        },
+        {
+          "image": "3",
+          "title": "Corporate parties"
+        },
+        {
+          "image": "4",
+          "title": "Presentations"
+        },
+        {
+          "image": "5",
+          "title": "Business trainings"
+        },
+        {
+          "image": "6",
+          "title": "Birthdays"
+        },
+        {
+          "image": "7",
+          "title": "Show programs"
+        },
+        {
+          "image": "8",
+          "title": "Concerts"
+        },
+        {
+          "image": "9",
+          "title": "Mass events"
+        },
+        {
+          "image": "10",
+          "title": "Team building"
+        },
+        {
+          "image": "11",
+          "title": "Development of a creative concept for the event"
+        }
+      ]
+    },
+    "advantages": {
+      "title": {
+        "strong": "AMP",
+        "text": "- full-cycle production center"
+      },
+      "subtitle": "Why choose us",
+      "array": [
+        {
+          "firstSuptitle": "We have",
+          "strong": "big",
+          "lastSuptitle": "a database of sites that are suitable for both a local event and an all-Russian event."
+        },
+        {
+          "firstSuptitle": "Strong",
+          "strong": "team of professionals",
+          "lastSuptitle": "takes care of all organizational and legal issues."
+        },
+        {
+          "firstSuptitle": "We will provide technical",
+          "strong": "support",
+          "lastSuptitle": "events: light, sound, visuals, decorations."
+        }
+      ]
+    }
+  },
+  "music": {
+    "intro": {
+      "image": "music",
+      "title": "Music and dance",
+      "subtitle": "We create music and dance hits from scratch.",
+      "obj": {
+        "button": {
+          "text": "SUBMIT YOUR APPLICATION",
+          "link": "briff"
+        },
+        "link": {
+          "text": "Каталог",
+          "link": "catalog"
+        }
+      }
+    },
+    "about": {
+      "strong": "The AMP production center",
+      "text": "will help you create a unique stage performance: unique dance performances, musical hits and concert numbers that will blow up the audience. You won't just get a song or dance, you'll get a powerful tool for career development."
+    },
+    "services": {
+      "title": "Our services",
+      "array": [
+        {
+          "image": "12",
+          "title": "Voice production"
+        },
+        {
+          "image": "13",
+          "title": "Aartist promotion"
+        },
+        {
+          "image": "14",
+          "title": "Creation of dance compositions"
+        },
+        {
+          "image": "15",
+          "title": "Music creation and recording"
+        },
+        {
+          "image": "16",
+          "title": "Mixing and mastering"
+        },
+        {
+          "image": "17",
+          "title": "Track pitching"
+        },
+        {
+          "image": "18",
+          "title": "Arrangement"
+        },
+        {
+          "image": "19",
+          "title": "Cover"
+        },
+        {
+          "image": "20",
+          "title": "Lyrics"
+        },
+        {
+          "image": "21",
+          "title": "Aadvertising"
+        }
+      ]
+    },
+    "advantages": {
+      "title": {
+        "strong": "AMP",
+        "text": "- full-cycle production center"
+      },
+      "subtitle": "Why choose us",
+      "array": [
+        {
+          "firstSuptitle": "We have",
+          "strong": "big",
+          "lastSuptitle": "a database of sites that are suitable for both a local event and an all-Russian event."
+        },
+        {
+          "firstSuptitle": "Strong",
+          "strong": "team of professionals",
+          "lastSuptitle": "takes care of all organizational and legal issues."
+        },
+        {
+          "firstSuptitle": "We will provide technical",
+          "strong": "support",
+          "lastSuptitle": "events: light, sound, visuals, decorations."
+        }
+      ]
+    }
+  },
+  "photo": {
+    "intro": {
+      "image": "photo",
+      "title": "Photo and video",
+      "subtitle": "We create unique photo and video content for you.",
+      "obj": {
+        "button": {
+          "text": "fill out a brief",
+          "link": "briff"
+        },
+        "link": {
+          "text": "catalog",
+          "link": "catalog"
+        }
+      }
+    },
+    "about": {
+      "strong": "Video and photography",
+      "text": "of an important event and photo shoot should be carried out by professionals. After all, the product you receive will shape your image and reputation. This is a separate promotion tool. That's why we trust your shooting only to the most experienced photographers and camera operators."
+    },
+    "services": {
+      "title": "Our services",
+      "array": [
+        {
+          "image": "22",
+          "title": "Video shooting"
+        },
+        {
+          "image": "23",
+          "title": "Promotion"
+        },
+        {
+          "image": "24",
+          "title": "Filming"
+        },
+        {
+          "image": "25",
+          "title": "Photography"
+        },
+        {
+          "image": "26",
+          "title": "Script writing"
+        },
+        {
+          "image": "27",
+          "title": "Directing"
+        },
+        {
+          "image": "28",
+          "title": "Shooting a music video"
+        },
+        {
+          "image": "29",
+          "title": "Creating a storyboard"
+        },
+        {
+          "image": "30",
+          "title": "Voiceover"
+        },
+        {
+          "image": "31",
+          "title": "Video Editing"
+        },
+        {
+          "image": "32",
+          "title": "Color correction"
+        },
+        {
+          "image": "33",
+          "title": "Creating a screensaver"
+        },
+        {
+          "image": "34",
+          "title": "Creating 2D and 3D animations"
+        },
+        {
+          "image": "35",
+          "title": "Full cycle audio and video production"
+        },
+        {
+          "image": "36",
+          "title": "Live broadcasts"
+        },
+        {
+          "image": "37",
+          "title": "Video presentation"
+        }
+      ]
+    },
+    "advantages": {
+      "title": {
+        "strong": "AMP",
+        "text": "- full-cycle production center"
+      },
+      "subtitle": "Why choose us",
+      "array": [
+        {
+          "firstSuptitle": "Large database of",
+          "strong": "professional",
+          "lastSuptitle": "photographers."
+        },
+        {
+          "firstSuptitle": "A wide",
+          "strong": "partner",
+          "lastSuptitle": "network of studios for filming and an impressive list of atmospheric locations."
+        },
+        {
+          "firstSuptitle": "Our own team of stylists and makeup artists.",
+          "strong": "",
+          "lastSuptitle": ""
+        }
+      ]
+    }
+  },
+  "marketing": {
+    "intro": {
+      "image": "marketing",
+      "title": "Marketing and branding",
+      "subtitle": "We will create a reputation and brand awareness for a company of any size.",
+      "obj": {
+        "button": {
+          "text": "FILL OUT THE BRIEF",
+          "link": "briff"
+        },
+        "link": {
+          "text": "catalog",
+          "link": "catalog"
+        }
+      }
+    },
+    "about": {
+      "strong": "Promotion",
+      "text": "without a personal brand is impossible. Defining a niche, distinguishing yourself from competitors, developing a logo and brand philosophy are the main steps to business success. We will create the necessary reputation for your product/service and consolidate it in the minds of the target audience."
+    },
+    "services": {
+      "title": "Our services",
+      "array": [
+        {
+          "image": "38",
+          "title": "Brand Audit"
+        },
+        {
+          "image": "39",
+          "title": "Naming"
+        },
+        {
+          "image": "40",
+          "title": "Packaging and label design"
+        },
+        {
+          "image": "41",
+          "title": "Packaging audit"
+        },
+        {
+          "image": "42",
+          "title": "Brand positioning"
+        },
+        {
+          "image": "43",
+          "title": "Logo development"
+        },
+        {
+          "image": "44",
+          "title": "Customer testing"
+        },
+        {
+          "image": "45",
+          "title": "Communication strategy"
+        },
+        {
+          "image": "46",
+          "title": "Advertising design"
+        },
+        {
+          "image": "47",
+          "title": "Rebranding / Redesign"
+        },
+        {
+          "image": "48",
+          "title": "Brand portfolio development"
+        },
+        {
+          "image": "49",
+          "title": "Brand book"
+        },
+        {
+          "image": "50",
+          "title": "Workshop - creating a brand with the client's team"
+        },
+        {
+          "image": "51",
+          "title": "Consumer brand development"
+        },
+        {
+          "image": "52",
+          "title": "Placing goods on marketplaces"
+        },
+        {
+          "image": "53",
+          "title": "Personal brand development"
+        },
+        {
+          "image": "54",
+          "title": "Сorporate brand development"
+        },
+        {
+          "image": "55",
+          "title": "Express design"
+        },
+        {
+          "image": "56",
+          "title": "Creating websites"
+        },
+        {
+          "image": "57",
+          "title": "Writing a PR strategy"
+        },
+        {
+          "image": "58",
+          "title": "Advertisement"
+        }
+      ]
+    },
+    "advantages": {
+      "title": {
+        "strong": "AMP",
+        "text": "- full-cycle production center"
+      },
+      "subtitle": "Why choose us",
+      "array": [
+        {
+          "firstSuptitle": "We understand",
+          "strong": "sales psychology",
+          "lastSuptitle": "and audience perception."
+        },
+        {
+          "firstSuptitle": "The team of marketing specialists has extensive",
+          "strong": "practical experience",
+          "lastSuptitle": "in working with large brands and start-up brands."
+        },
+        {
+          "firstSuptitle": "We have",
+          "strong": "a pool of effective media",
+          "lastSuptitle": "in which native publications about your brand will appear."
+        }
+      ]
     }
   }
 }
