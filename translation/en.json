@@ -897,5 +897,29 @@
         }
       ]
     }
+  },
+  "submit": {
+    "title": "Сontact us",
+    "subtitle": "Write to us about your project and we will contact you soon to discuss the details",
+    "option": [
+      "Select the service you are interested in",
+      "Music and dance ",
+      "Photo and video",
+      "Events",
+      "Branding",
+      "Other"
+    ],
+    "name": "Name",
+    "invalide": {
+      "title": "Please fill out all required fields. Please indicate your name",
+      "subtitle": "Obligatory field"
+    },
+    "textarea": "Describe your task",
+    "email": "E-mail or link to a social network",
+    "button": "contact us",
+    "policy": {
+      "text": "By submitting a request, you accept the terms of the",
+      "link": "privacy policy"
+    }
   }
 }
