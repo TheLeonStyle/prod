@@ -4,7 +4,9 @@ $mobile: em(767.98); // Телефоны L
 $mobileSmall: em(479.98); // Телефоны S
 
 .mission {
-	padding: 50px 0 30px;
+	@include adaptiveValue("padding-top", 50, 30, 1230, 320, 1);
+	padding-bottom: 30px;
+
 	&__container {
 		display: flex;
 		flex-direction: column;
@@ -47,6 +49,9 @@ $mobileSmall: em(479.98); // Телефоны S
 		height: rem(424);
 		@media (max-width: $tablet) {
 			align-items: start;
+		}
+		@media (max-width: $mobile) {
+			height: auto;
 		}
 	}
 	&__image {

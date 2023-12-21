@@ -18,6 +18,8 @@ $mobileSmall: em(479.98); // Телефоны S
 	}
 	&__wrapper {
 		position: absolute;
+		z-index: 20;
+
 		top: 50%;
 		transform: translateY(-50%);
 
@@ -63,3 +65,8 @@ $mobileSmall: em(479.98); // Телефоны S
 		}
 	}
 }
+
+// #canvas {
+// 	width: 100vw;
+// 	height: 100vh;
+// }

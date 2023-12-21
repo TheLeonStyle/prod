@@ -1,9 +1,16 @@
 import React, { useEffect, useState } from 'react';
+import { Link } from 'react-router-dom';
 
 import Logo from '../../assets/img/logo.svg';
 import styles from './Header.module.scss';
 
-const Header = ({ burgerActive, setBurgerActive, navigationArray, handleLanguageChanges }) => {
+const Header = ({
+  burgerActive,
+  setBurgerActive,
+  navigationArray,
+  handleLanguageChanges,
+  headerNested,
+}) => {
   const [scrolled, setScrolled] = useState(false);
 
   useEffect(() => {
@@ -26,27 +33,38 @@ const Header = ({ burgerActive, setBurgerActive, navigationArray, handleLanguage
     setBurgerActive((prev) => !prev);
   };
 
+  const handleLink = () => {
+    window.scrollTo(0, 0);
+  };
+
   return (
-    <header className={`${styles.header} ${scrolled ? styles.active : ''}`}>
+    <header
+      className={`${styles.header} ${scrolled || burgerActive ? styles.active : ''} ${
+        headerNested ? styles.nested : ''
+      }`}>
       <div className={styles.header__container}>
-        <a href="" className={styles.header__logo}>
+        <Link to="/" onClick={handleLink} className={styles.header__logo}>
           <img src={Logo} alt="Логотип" />
-        </a>
+        </Link>
 
         <nav className={styles.header__nav}>
           <ul className={styles.header__menu}>
             {navigationArray.map((obj) => (
               <li className={styles.header__list} key={obj.title}>
-                <a href={obj.link} className={styles.header__link}>
+                <a href={`#${obj.link}`} className={styles.header__link}>
                   {obj.title}
                 </a>
 
                 {obj.array && (
                   <div className={styles.header__popup}>
-                    {obj.array.map((elem) => (
-                      <a href="" className={styles.header__popup_link} key={elem}>
-                        {elem}
-                      </a>
+                    {obj.array.map((object) => (
+                      <Link
+                        to={`/${object.link}`}
+                        onClick={handleLink}
+                        className={styles.header__popup_link}
+                        key={object.text}>
+                        {object.text}
+                      </Link>
                     ))}
                   </div>
                 )}

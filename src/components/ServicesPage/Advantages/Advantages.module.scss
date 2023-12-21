@@ -1,0 +1,50 @@
+@import "../../../scss/mixins";
+$tablet: em(991.98); // Планшеты, некоторые телефоны в горизонтальном положении
+$mobile: em(767.98); // Телефоны L
+$mobileSmall: em(479.98); // Телефоны S
+
+.advantages {
+	@include adaptiveValue("padding-top", 90, 30, 1230, 320, 1);
+	padding-bottom: rem(30);
+	@media (max-width: $tablet) {
+		border-top: 1px solid #333333;
+		border-bottom: 1px solid #333333;
+	}
+	&__container {
+		display: flex;
+		flex-direction: column;
+		gap: rem(25);
+		@include adaptiveValue("gap", 25, 15, 767.98, 320, 1);
+	}
+	&__title {
+		@include adaptiveValue("font-size", 46, 24, 1230, 320, 1);
+		font-weight: 700;
+		line-height: 1.23;
+		span {
+			@include adaptiveValue("font-size", 62, 28, 1230, 320, 1);
+		}
+	}
+	&__subtitle {
+		@include adaptiveValue("font-size", 24, 20, 1230, 320, 1);
+		color: #f0c47f;
+		font-weight: 600;
+		line-height: 1.55;
+	}
+	&__wrapper {
+		display: flex;
+		justify-content: space-between;
+		@include adaptiveValue("gap", 20, 15, 767.98, 320, 1);
+		@media (max-width: $tablet) {
+			flex-direction: column;
+		}
+	}
+	&__suptitle {
+		max-width: rem(330);
+
+		font-size: 18px;
+		line-height: 1.65;
+		@media (max-width: $tablet) {
+			max-width: 100%;
+		}
+	}
+}

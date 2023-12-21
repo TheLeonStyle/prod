@@ -2,22 +2,46 @@
   "index": {
     "navigation": [
       {
-        "title": "about"
+        "title": "about",
+        "link": "about"
       },
       {
-        "title": "services"
+        "title": "services",
+        "array": [
+          {
+            "text": "Event",
+            "link": "events"
+          },
+          {
+            "text": "Marketing and branding",
+            "link": "music_dance"
+          },
+          {
+            "text": "Photo and video",
+            "link": "photo_and_video"
+          },
+          {
+            "text": "Music and dance",
+            "link": "marketing_and_brandin"
+          }
+        ],
+        "link": "services"
       },
       {
-        "title": "team"
+        "title": "team",
+        "link": "team"
       },
       {
-        "title": "partners"
+        "title": "partners",
+        "link": "partners"
       },
       {
-        "title": "contacts"
+        "title": "contacts",
+        "link": "footer"
       },
       {
-        "title": "school"
+        "title": "school",
+        "link": "school"
       }
     ],
     "intro": [
@@ -48,7 +72,7 @@
       "title": "Services",
       "array": [
         {
-          "image": "01",
+          "image": "1",
           "title": "Music and dance",
           "list": [
             "Assisting in making and recording music",
@@ -58,7 +82,7 @@
           ]
         },
         {
-          "image": "02",
+          "image": "2",
           "title": "Photo and video",
           "list": [
             "Video, photography, and special projects",
@@ -68,7 +92,7 @@
           ]
         },
         {
-          "image": "03",
+          "image": "3",
           "title": "Marketing and branding",
           "list": [
             "Brand promotion",
@@ -78,7 +102,7 @@
           ]
         },
         {
-          "image": "04",
+          "image": "4",
           "title": "Events",
           "list": [
             "Organization of concerts and events",
@@ -88,6 +112,814 @@
           ]
         }
       ]
+    },
+    "form": {
+      "title": "Find out the cost of the project",
+      "subtitle": "Write to us about your project and we will contact you soon to discuss the details",
+      "array": {
+        "options": [
+          "Select the service you are interested in",
+          "Music and dance",
+          "Photo and video",
+          "Events",
+          "Branding / Marketing",
+          "Other"
+        ],
+        "name": "Name",
+        "email": "E-mail or link to a social network",
+        "submit": "free consultation",
+        "policy": {
+          "text": "By submitting a request, you accept the terms of the",
+          "privacy": "privacy policy"
+        }
+      }
+    },
+    "mission": {
+      "title": "Mission",
+      "firstSuptitle": "As the AMP team,our objective is to make sure that you succeed regardless of your age,your status in society (where you live,your class bracket) or even your connections or lack thereof. We will reveal your truest potential and make it a reality.",
+      "secondSuptitle": "Every project is approached with intensity and passion with a persistent intention in order to not only find the best solution but to also fulfill all your dreams and goals.",
+      "text": "AMP is a multi-purpose producing center. We have all tools within our reach in order to produce events, support artists and promote commercial brands."
+    },
+    "quote": {
+      "quote": "«Unlike the notorious motivational speakers, we know what the word «difficulty» means, and we are experts about difficulties»",
+      "author": "Arkadi Mailyan",
+      "role": "general producer"
+    },
+    "team": {
+      "title": "Team",
+      "array": [
+        {
+          "image": "1",
+          "name": "Yulia Chorna",
+          "role": "Event Producer",
+          "subtitle": "Event management expert. Graduate of Event Education PRO. Since 2021, she has been involved in the organization of forums, conferences, congresses, strategic sessions, seminars, master classes, business clubs, weddings, immersive shows, and birthdays. She has a large acting database. She has organized over 50 events, including the Pharma Ball 2022, the Online Education Leaders Awards, and the Medical Conference."
+        },
+        {
+          "image": "2",
+          "name": "Marie Boro",
+          "role": "Concept Designer, Creative Producer",
+          "subtitle": "Marketing and design expert, concept designer. Co-founder of ThermoUp (Exporter of the Year 2021). Has been involved in packaging personal brands and businesses since 2014. Helped to package a business for entry into the European market. Became a resident of SKOLKOVO. Packaged and launched over 100 international companies. Leads international projects (Georgia, Dubai, Thailand, Germany)"
+        },
+        {
+          "image": "3",
+          "name": "Maria Kozharinova",
+          "role": "Media Researcher",
+          "subtitle": "One of the few digital media and 'infobusiness' researchers in Russia. Graduated from a bachelor's degree in cultural studies and is a master's student at the Faculty of Media at the Higher School of Economics. She has many years of experience in analyzing media processes and knows all about the leading trends in the world of new media. Author of a number of academic articles on social media and cinema, published in leading Russian and foreign scientific journals."
+        },
+        {
+          "image": "4",
+          "name": "Daria Tuzova",
+          "role": "Creative Producer",
+          "subtitle": "Master of International Economic Relations at the Financial University under the Government of the Russian Federation. Organizer of presentations of clips for Russian stars. Organizer of open-air festivals. Editor of the online concert 'Muz-Kach' of the Music Box Russia channel."
+        },
+        {
+          "image": "5",
+          "name": "Yulia Vidyapina",
+          "role": "PR Director",
+          "subtitle": "Since 2007, she has conducted several political election campaigns. Developed candidate promotion concepts. Managed several regional weekly newspapers. Created a content plan for the promotion of large companies, experts, politicians, and public figures."
+        },
+        {
+          "image": "6",
+          "name": "Alisa Kurbatova",
+          "role": "Director",
+          "subtitle": "Graduate of University of Maryland'12. Directed the festival from the studio Born to Dance (USA). Participated in the Measures of our Live project (live portraits). Worked as a director and artist at the Le Noces du Moulin street festival (France). Artist of Slava Polunin's Snow Show. Has written over 100 songs in various genres, both Russian and English."
+        },
+        {
+          "image": "7",
+          "name": "Karolina Babayan",
+          "role": "Stylist",
+          "subtitle": "People's stylist of the 'Fashion Sentence' on Channel One. Expert in stylization of photo and video projects turnkey: from brainstorming to selecting locations and looks. Specializes in creating a stage image.Consultant on style online and offline. Shopping accompaniment. Wardrobe analysis.Fashion consultations: main trends of the season, the perfect basic wardrobe."
+        },
+        {
+          "image": "8",
+          "name": "Alexander Bodyansky",
+          "role": "Choreographer",
+          "subtitle": "Participant of the ballet 'Todes'. Danced in the ballet of Katya Lel, Philip Kirkorov, at Eurovision with Angelica Agurbash and Dmitry Koldun. Artist of the musical 'Chicago'. Collaborated with choreographers M. Michaels, T. Wilson and F. Evangelinos. Works in the styles of jazz-modern, hip-hop and others."
+        },
+        {
+          "image": "9",
+          "name": "Lina Volchenok",
+          "role": "Line producer",
+          "subtitle": "Has extensive experience in producing broadcasting programs on television. Now, Lina runs her own production studio, conducts master classes on promotion of personal brands. Helps bloggers and experts grow their social media audience."
+        },
+        {
+          "image": "10",
+          "name": "Lyudmila Alexandrova",
+          "role": "Vocal Coach, Vocal Producer",
+          "subtitle": "Graduated from the Liceu Conservatory (Barcelona). Advanced training: AKHÍ, Fonograf, music production at Moscow Music School, a course for teachers Karina Cooper, CVT. Recorded the album 'Open', singles 'Kill U' and 'Dreamy'. More than 10 years of teaching experience."
+        },
+        {
+          "image": "11",
+          "name": "Egor Maltsev",
+          "role": "Psychologist",
+          "subtitle": "Clinical psychologist, practitioner of short-term therapy. Ericksonian coach, individual and family consultant, corporate trainer of a large IT company, member of the 'Europеan brief therapy association'."
+        },
+        {
+          "image": "12",
+          "name": "Roman Potapov",
+          "role": "Film Producer",
+          "subtitle": "More than 50 projects implemented. Worked with Gosha Kutsenko and Dmitry Dibrov. Created a series of advertising videos for the Toy.ru store. Many years of experience in preparing expeditions and filming abroad. Organization of filming in closed government agencies. Attracts stars of any level to projects."
+        },
+        {
+          "image": "13",
+          "name": "Maxim Panteleev",
+          "role": "Sound Producer",
+          "subtitle": "At the age of 18, he became the composer of a full-length film. Collaborated with Dani Milokhin, Yanger, Dasha Volosevich, Raim Trigger, Sergey Shtep. Worked with directors Timofey Zhalnin, Alena Oleinik. He composed the musical accompaniment for the trailers 'Vij-2. The Mystery of the Dragon's Seal', 'Troyes'."
+        },
+        {
+          "image": "14",
+          "name": "Lyubov Shelgorn",
+          "role": "Screenwriter",
+          "subtitle": "Expert in creating social videos. Masterfully implements the customer's ideas, uses unexpected techniques. Differs in unconventional creative thinking. Develops plot lines in detail for videos and full-length films, theatrical performances, or various events."
+        },
+        {
+          "image": "15",
+          "name": "Svyatoslav Chernuho",
+          "role": "Concert Producer",
+          "subtitle": "Organizes concerts of the BGA 'Pesnyary' for more than five years. Ten years in the show business of Russia and Dubai. Organized events: autograph session of the drummer of RAMMSTEIN Christoph Schneider; master class of the star Jeff Berlin; meeting with guitarist Matthias Jabs (Scorpions), show Ron Bumblefoot Thal."
+        },
+        {
+          "image": "16",
+          "name": "Valeria Aksenova",
+          "role": "Producer, Director",
+          "subtitle": "Worked with Abrau Durso, AFK Sistema, companies Detsky Mir, Yokogawa Electric Corporation, DHL, RosGosSport, RosAvtoDor, Hearst Shkulev Media, etc. Expert in organizing concerts of Russian and foreign performers in Russia, work on projects: Eurovision, MuzTV award, MTV award, Old and New Songs about the Main, Song of the Year, etc."
+        },
+        {
+          "image": "17",
+          "name": "Ani Davtyan",
+          "role": "Lawyer",
+          "subtitle": "Three higher legal educations. Worked as a leading lawyer in the judicial department of VTB-Armenia Bank. Lawyer at the PK&Partners law firm LLC. Legal researcher within the framework of the Legal Innovation Lab of Armenia project. Lecturer in civil law and Roman law at the Russian-Armenian University."
+        },
+        {
+          "image": "18",
+          "name": "Anahit Markosyan",
+          "role": "Head of Digital Direction",
+          "subtitle": "Seven years of experience in the field of SMM, about 30 implemented projects. Worked as a consultant-expert in the Armenian government. Headed the communications and SMM department of a major pharmacy chain. Increased online sales by 37%. SMM specialist of the educational project 'Lookaround' ('Rosatom')."
+        },
+        {
+          "image": "19",
+          "name": "Yulia Tremaskina",
+          "role": "Executive Producer",
+          "subtitle": "Music and event producer, booking agent, over 10 years of experience. Projects: Digital show MuzKach. Festival 'Slavic Bazaar' in Vitebsk. Festivals ALFA FUTURE PEOPLE, AFP Snow Edition. Music shows, awards and special projects of the Europa Plus TV, Channel One Music and Musicbox channels. Concerts of foreign and Russian artists in Russia and abroad. Olympic and Paralympic torch relay (Sochi 2014), FIFA World Cup 2018. Organization of events."
+        }
+      ]
+    },
+    "partners": {
+      "title": "Partners"
+    },
+    "cooperation": {
+      "title": "Сooperation",
+      "subtitle": "The AMP team acknowledges the meaning of its activity wider than just business. So if you develop social projects and want to cooperate with us, just send your request to us by mail.",
+      "suptitle": "We are ready to cooperate with NGOs, charitable and social organizations."
+    },
+    "footer": {
+      "item": "For any questions",
+      "item2": {
+        "name": "Arkadi",
+        "role": "CEO"
+      },
+      "item3": {
+        "name": "Julia",
+        "role": "PR and collaboration"
+      },
+      "item4": {
+        "name": "Ani",
+        "role": "Lawyer"
+      }
+    }
+  },
+  "services": {
+    "navigation": [
+      {
+        "title": "services",
+        "array": [
+          {
+            "text": "Event",
+            "link": "events"
+          },
+          {
+            "text": "Marketing and branding",
+            "link": "music_dance"
+          },
+          {
+            "text": "Photo and video",
+            "link": "photo_and_video"
+          },
+          {
+            "text": "Music and dance",
+            "link": "marketing_and_brandin"
+          }
+        ],
+        "link": "services"
+      },
+      {
+        "title": "team",
+        "link": "team"
+      },
+      {
+        "title": "partners",
+        "link": "partners"
+      },
+      {
+        "title": "contacts",
+        "link": "footer"
+      }
+    ]
+  },
+  "events": {
+    "intro": {
+      "image": "events",
+      "title": "Events",
+      "subtitle": "Organization of events of any scale in Russia and abroad on a turnkey basis",
+      "obj": {
+        "button": {
+          "text": "Full out the bbrief",
+          "link": "briff"
+        },
+        "link": {
+          "text": "catalog",
+          "link": "services"
+        }
+      }
+    },
+    "services": {
+      "title": "Our services",
+      "array": [
+        {
+          "image": "1",
+          "title": "Business events"
+        },
+        {
+          "image": "2",
+          "title": "Online events"
+        },
+        {
+          "image": "3",
+          "title": "Corporate parties"
+        },
+        {
+          "image": "4",
+          "title": "Presentations"
+        },
+        {
+          "image": "5",
+          "title": "Business trainings"
+        },
+        {
+          "image": "6",
+          "title": "Birthdays"
+        },
+        {
+          "image": "7",
+          "title": "Show programs"
+        },
+        {
+          "image": "8",
+          "title": "Concerts"
+        },
+        {
+          "image": "9",
+          "title": "Mass events"
+        },
+        {
+          "image": "10",
+          "title": "Team building"
+        },
+        {
+          "image": "11",
+          "title": "Development of a creative concept for the event"
+        }
+      ]
+    },
+    "advantages": {
+      "title": {
+        "strong": "AMP",
+        "text": "- full-cycle production center"
+      },
+      "subtitle": "Why choose us",
+      "array": [
+        {
+          "firstSuptitle": "We have",
+          "strong": "big",
+          "lastSuptitle": "a database of sites that are suitable for both a local event and an all-Russian event."
+        },
+        {
+          "firstSuptitle": "Strong",
+          "strong": "team of professionals",
+          "lastSuptitle": "takes care of all organizational and legal issues."
+        },
+        {
+          "firstSuptitle": "We will provide technical",
+          "strong": "support",
+          "lastSuptitle": "events: light, sound, visuals, decorations."
+        }
+      ]
+    }
+  },
+  "music": {
+    "intro": {
+      "image": "music",
+      "title": "Music and dance",
+      "subtitle": "We create music and dance hits from scratch.",
+      "obj": {
+        "button": {
+          "text": "SUBMIT YOUR APPLICATION",
+          "link": "briff"
+        },
+        "link": {
+          "text": "Каталог",
+          "link": "services"
+        }
+      }
+    },
+    "about": {
+      "strong": "The AMP production center",
+      "text": "will help you create a unique stage performance: unique dance performances, musical hits and concert numbers that will blow up the audience. You won't just get a song or dance, you'll get a powerful tool for career development."
+    },
+    "services": {
+      "title": "Our services",
+      "array": [
+        {
+          "image": "12",
+          "title": "Voice production"
+        },
+        {
+          "image": "13",
+          "title": "Aartist promotion"
+        },
+        {
+          "image": "14",
+          "title": "Creation of dance compositions"
+        },
+        {
+          "image": "15",
+          "title": "Music creation and recording"
+        },
+        {
+          "image": "16",
+          "title": "Mixing and mastering"
+        },
+        {
+          "image": "17",
+          "title": "Track pitching"
+        },
+        {
+          "image": "18",
+          "title": "Arrangement"
+        },
+        {
+          "image": "19",
+          "title": "Cover"
+        },
+        {
+          "image": "20",
+          "title": "Lyrics"
+        },
+        {
+          "image": "21",
+          "title": "Aadvertising"
+        }
+      ]
+    },
+    "advantages": {
+      "title": {
+        "strong": "AMP",
+        "text": "- full-cycle production center"
+      },
+      "subtitle": "Why choose us",
+      "array": [
+        {
+          "firstSuptitle": "We have",
+          "strong": "big",
+          "lastSuptitle": "a database of sites that are suitable for both a local event and an all-Russian event."
+        },
+        {
+          "firstSuptitle": "Strong",
+          "strong": "team of professionals",
+          "lastSuptitle": "takes care of all organizational and legal issues."
+        },
+        {
+          "firstSuptitle": "We will provide technical",
+          "strong": "support",
+          "lastSuptitle": "events: light, sound, visuals, decorations."
+        }
+      ]
+    }
+  },
+  "photo": {
+    "intro": {
+      "image": "photo",
+      "title": "Photo and video",
+      "subtitle": "We create unique photo and video content for you.",
+      "obj": {
+        "button": {
+          "text": "fill out a brief",
+          "link": "briff"
+        },
+        "link": {
+          "text": "catalog",
+          "link": "services"
+        }
+      }
+    },
+    "about": {
+      "strong": "Video and photography",
+      "text": "of an important event and photo shoot should be carried out by professionals. After all, the product you receive will shape your image and reputation. This is a separate promotion tool. That's why we trust your shooting only to the most experienced photographers and camera operators."
+    },
+    "services": {
+      "title": "Our services",
+      "array": [
+        {
+          "image": "22",
+          "title": "Video shooting"
+        },
+        {
+          "image": "23",
+          "title": "Promotion"
+        },
+        {
+          "image": "24",
+          "title": "Filming"
+        },
+        {
+          "image": "25",
+          "title": "Photography"
+        },
+        {
+          "image": "26",
+          "title": "Script writing"
+        },
+        {
+          "image": "27",
+          "title": "Directing"
+        },
+        {
+          "image": "28",
+          "title": "Shooting a music video"
+        },
+        {
+          "image": "29",
+          "title": "Creating a storyboard"
+        },
+        {
+          "image": "30",
+          "title": "Voiceover"
+        },
+        {
+          "image": "31",
+          "title": "Video Editing"
+        },
+        {
+          "image": "32",
+          "title": "Color correction"
+        },
+        {
+          "image": "33",
+          "title": "Creating a screensaver"
+        },
+        {
+          "image": "34",
+          "title": "Creating 2D and 3D animations"
+        },
+        {
+          "image": "35",
+          "title": "Full cycle audio and video production"
+        },
+        {
+          "image": "36",
+          "title": "Live broadcasts"
+        },
+        {
+          "image": "37",
+          "title": "Video presentation"
+        }
+      ]
+    },
+    "advantages": {
+      "title": {
+        "strong": "AMP",
+        "text": "- full-cycle production center"
+      },
+      "subtitle": "Why choose us",
+      "array": [
+        {
+          "firstSuptitle": "Large database of",
+          "strong": "professional",
+          "lastSuptitle": "photographers."
+        },
+        {
+          "firstSuptitle": "A wide",
+          "strong": "partner",
+          "lastSuptitle": "network of studios for filming and an impressive list of atmospheric locations."
+        },
+        {
+          "firstSuptitle": "Our own team of stylists and makeup artists.",
+          "strong": "",
+          "lastSuptitle": ""
+        }
+      ]
+    }
+  },
+  "marketing": {
+    "intro": {
+      "image": "marketing",
+      "title": "Marketing and branding",
+      "subtitle": "We will create a reputation and brand awareness for a company of any size.",
+      "obj": {
+        "button": {
+          "text": "FILL OUT THE BRIEF",
+          "link": "briff"
+        },
+        "link": {
+          "text": "catalog",
+          "link": "services"
+        }
+      }
+    },
+    "about": {
+      "strong": "Promotion",
+      "text": "without a personal brand is impossible. Defining a niche, distinguishing yourself from competitors, developing a logo and brand philosophy are the main steps to business success. We will create the necessary reputation for your product/service and consolidate it in the minds of the target audience."
+    },
+    "services": {
+      "title": "Our services",
+      "array": [
+        {
+          "image": "38",
+          "title": "Brand Audit"
+        },
+        {
+          "image": "39",
+          "title": "Naming"
+        },
+        {
+          "image": "40",
+          "title": "Packaging and label design"
+        },
+        {
+          "image": "41",
+          "title": "Packaging audit"
+        },
+        {
+          "image": "42",
+          "title": "Brand positioning"
+        },
+        {
+          "image": "43",
+          "title": "Logo development"
+        },
+        {
+          "image": "44",
+          "title": "Customer testing"
+        },
+        {
+          "image": "45",
+          "title": "Communication strategy"
+        },
+        {
+          "image": "46",
+          "title": "Advertising design"
+        },
+        {
+          "image": "47",
+          "title": "Rebranding / Redesign"
+        },
+        {
+          "image": "48",
+          "title": "Brand portfolio development"
+        },
+        {
+          "image": "49",
+          "title": "Brand book"
+        },
+        {
+          "image": "50",
+          "title": "Workshop - creating a brand with the client's team"
+        },
+        {
+          "image": "51",
+          "title": "Consumer brand development"
+        },
+        {
+          "image": "52",
+          "title": "Placing goods on marketplaces"
+        },
+        {
+          "image": "53",
+          "title": "Personal brand development"
+        },
+        {
+          "image": "54",
+          "title": "Сorporate brand development"
+        },
+        {
+          "image": "55",
+          "title": "Express design"
+        },
+        {
+          "image": "56",
+          "title": "Creating websites"
+        },
+        {
+          "image": "57",
+          "title": "Writing a PR strategy"
+        },
+        {
+          "image": "58",
+          "title": "Advertisement"
+        }
+      ]
+    },
+    "advantages": {
+      "title": {
+        "strong": "AMP",
+        "text": "- full-cycle production center"
+      },
+      "subtitle": "Why choose us",
+      "array": [
+        {
+          "firstSuptitle": "We understand",
+          "strong": "sales psychology",
+          "lastSuptitle": "and audience perception."
+        },
+        {
+          "firstSuptitle": "The team of marketing specialists has extensive",
+          "strong": "practical experience",
+          "lastSuptitle": "in working with large brands and start-up brands."
+        },
+        {
+          "firstSuptitle": "We have",
+          "strong": "a pool of effective media",
+          "lastSuptitle": "in which native publications about your brand will appear."
+        }
+      ]
+    }
+  },
+  "briff": {
+    "navigation": [
+      {
+        "title": "Home",
+        "link": "/"
+      },
+      {
+        "title": "team",
+        "link": "team"
+      },
+      {
+        "title": "event",
+        "link": "footer"
+      }
+    ],
+    "intro": {
+      "image": "events",
+      "title": "Brif",
+      "subtitle": "Organization of events of any scale in Russia and abroad on a turnkey basis"
+    },
+    "form": {
+      "button": "send",
+      "errorValide": "Fill in all the fields",
+      "errorValideSubtitle": "Fill in the field",
+      "policy": {
+        "text": "By leaving a request you accept the",
+        "link": "privacy policy"
+      },
+      "array": [
+        {
+          "title": "1. Last name and first name*",
+          "id": "name",
+          "type": "text",
+          "placeholder": "Ivanov Ivan",
+          "valide": "true"
+        },
+        {
+          "title": "2. Email*",
+          "id": "email",
+          "type": "email",
+          "placeholder": "Your Email",
+          "valide": "true"
+        },
+        {
+          "title": "3. Telephone*",
+          "id": "phone",
+          "type": "phone",
+          "placeholder": "Your Telephone",
+          "valide": "true"
+        },
+        {
+          "title": "4. What kind of event do you want to hold?",
+          "checkbox": "true",
+          "array": [
+            {
+              "id": "Corporate",
+              "title": "Corporate event"
+            },
+            {
+              "id": "Concert",
+              "title": "Concert"
+            },
+            {
+              "id": "Conference",
+              "title": "Conference"
+            },
+            {
+              "id": "Business event",
+              "title": "Business event"
+            },
+            {
+              "id": "Presentation",
+              "title": "Presentation"
+            },
+            {
+              "id": "Business training",
+              "title": "Business training"
+            },
+            {
+              "id": "Online event",
+              "title": "Online event"
+            },
+            {
+              "id": "Birthday",
+              "title": "Birthday"
+            },
+            {
+              "id": "Show program",
+              "title": "Show program"
+            },
+            {
+              "id": "Other",
+              "title": "Other"
+            }
+          ]
+        },
+        {
+          "title": "5. What is the estimated budget for the event?",
+          "id": "budget",
+          "type": "number"
+        },
+        {
+          "title": "6. In which country/city are you planning to organize the event?",
+          "id": "locate",
+          "type": "text"
+        },
+        {
+          "title": "7. Date of the event?",
+          "id": "date",
+          "type": "number"
+        },
+        {
+          "title": "8. What is the main purpose of this event?",
+          "id": "target",
+          "type": "text"
+        },
+        {
+          "title": "9. What are your expectations from the event?",
+          "id": "expectations",
+          "type": "text"
+        },
+        {
+          "title": "10. How many participants do you plan to invite to the event?",
+          "id": "quantity",
+          "type": "number"
+        },
+        {
+          "title": "11. Will you need transportation services for event participants?",
+          "id": "transport",
+          "type": "text"
+        },
+        {
+          "title": "12. Will the event require individual interpreters or special equipment for simultaneous interpretation?",
+          "id": "translator",
+          "type": "text"
+        },
+        {
+          "title": "13. Do you have any additional information that you would like to add to facilitate the event?",
+          "id": "info",
+          "type": "text"
+        }
+      ]
+    }
+  },
+  "submit": {
+    "title": "Сontact us",
+    "subtitle": "Write to us about your project and we will contact you soon to discuss the details",
+    "option": [
+      "Select the service you are interested in",
+      "Music and dance ",
+      "Photo and video",
+      "Events",
+      "Branding",
+      "Other"
+    ],
+    "name": "Name",
+    "invalide": {
+      "title": "Please fill out all required fields. Please indicate your name",
+      "subtitle": "Obligatory field"
+    },
+    "textarea": "Describe your task",
+    "email": "E-mail or link to a social network",
+    "button": "contact us",
+    "policy": {
+      "text": "By submitting a request, you accept the terms of the",
+      "link": "privacy policy"
     }
   }
 }

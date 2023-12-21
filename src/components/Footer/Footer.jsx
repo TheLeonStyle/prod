@@ -6,29 +6,31 @@ import Whatsapp from '../../assets/img/footer/whatsapp.png';
 
 import styles from './Footer.module.scss';
 
-const Footer = () => {
+const Footer = ({ translationObj }) => {
   return (
-    <footer className={styles.footer}>
+    <footer id="footer" className={styles.footer}>
       <div className={styles.footer__container}>
         <div className={styles.footer__top}>
           <div className={styles.footer__logo}>
             <img src={Logo} alt="Логотип" />
           </div>
           <div className={styles.footer__socials}>
-            <a href="" className={styles.footer__social}>
+            <a
+              href="https://www.youtube.com/channel/UCjJsmrmgpODZFaQHAEIs3sw/featured"
+              className={styles.footer__social}>
               <img src={Youtube} alt="Социальная иконка" />
             </a>
-            <a href="" className={styles.footer__social}>
+            <a href="https://t.me/amprodmedia" className={styles.footer__social}>
               <img src={Telegram} alt="Социальная иконка" />
             </a>
-            <a href="" className={styles.footer__social}>
+            <a href="https://wa.me/message/ILNXYKAS2ZBQJ1" className={styles.footer__social}>
               <img src={Whatsapp} alt="Социальная иконка" />
             </a>
           </div>
         </div>
         <div className={styles.footer__contacts}>
           <div className={styles.footer__contact}>
-            <h6 className={styles.footer__title}>По всем вопросам</h6>
+            <h6 className={styles.footer__title}>{translationObj.item}</h6>
             <a href="mailto:manager@am-prod.media" className={styles.footer__link}>
               manager@am-prod.media
             </a>
@@ -37,22 +39,22 @@ const Footer = () => {
             </a>
           </div>
           <div className={styles.footer__contact}>
-            <h6 className={styles.footer__title}>Аркади Радикович</h6>
-            <h6 className={styles.footer__title}>Генеральный директор</h6>
+            <h6 className={styles.footer__title}>{translationObj.item2?.name}</h6>
+            <h6 className={styles.footer__title}>{translationObj.item2?.role}</h6>
             <a href="mailto:manager@am-prod.media" className={styles.footer__link}>
               manager@am-prod.media
             </a>
           </div>
           <div className={styles.footer__contact}>
-            <h6 className={styles.footer__title}>Юлия Яковлевна</h6>
-            <h6 className={styles.footer__title}>PR и сотрудничество</h6>
+            <h6 className={styles.footer__title}>{translationObj.item3?.name}</h6>
+            <h6 className={styles.footer__title}>{translationObj.item3?.role}</h6>
             <a href="mailto:manager@am-prod.media" className={styles.footer__link}>
               manager@am-prod.media
             </a>
           </div>
           <div className={styles.footer__contact}>
-            <h6 className={styles.footer__title}>Ани Маисовна</h6>
-            <h6 className={styles.footer__title}>Юрист</h6>
+            <h6 className={styles.footer__title}>{translationObj.item4?.name}</h6>
+            <h6 className={styles.footer__title}>{translationObj.item4?.role}</h6>
             <a href="mailto:manager@am-prod.media" className={styles.footer__link}>
               manager@am-prod.media
             </a>

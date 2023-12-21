@@ -1,13 +1,28 @@
 import React, { useState } from 'react';
 import styles from './HeaderPopup.module.scss';
+import { Link } from 'react-router-dom';
 
-const HeaderPopup = ({ navigationArray, handleLanguageChanges }) => {
+const HeaderPopup = ({ navigationArray, handleLanguageChanges, setBurgerActive }) => {
   const [servicesOpen, setServicesOpen] = useState(false);
 
   const toggleServices = (event) => {
     event.preventDefault();
     setServicesOpen((prev) => !prev);
-    console.log(servicesOpen);
+  };
+
+  const handleLink = (event, index) => {
+    if (window.location.pathname === '/' && index === 1) {
+      toggleServices(event);
+    } else if (window.location.pathname !== '/' && index === 0) {
+      toggleServices(event);
+    } else {
+      setBurgerActive((prev) => !prev);
+    }
+  };
+
+  const handleNestedLink = () => {
+    window.scrollTo(0, 0);
+    setBurgerActive((prev) => !prev);
   };
 
   return (
@@ -17,18 +32,22 @@ const HeaderPopup = ({ navigationArray, handleLanguageChanges }) => {
           {navigationArray.map((obj, index) => (
             <li className={styles.header_popup__item} key={obj.title}>
               <a
-                onClick={(event) => (index === 1 ? toggleServices(event) : undefined)}
-                href=""
+                onClick={(event) => handleLink(event, index)}
+                href={`#${obj.link}`}
                 className={styles.header_popup__link}>
                 {obj.title}
               </a>
+
               {obj.array && servicesOpen && (
                 <ul className={styles.header_popup__lists}>
-                  {obj.array.map((elem) => (
-                    <li className={styles.header_popup__list} key={elem}>
-                      <a href="" className={styles.header_popup__link}>
-                        {elem}
-                      </a>
+                  {obj.array.map((object) => (
+                    <li className={styles.header_popup__list} key={object.text}>
+                      <Link
+                        to={`/${object.link}`}
+                        onClick={handleNestedLink}
+                        className={styles.header_popup__link}>
+                        {object.text}
+                      </Link>
                     </li>
                   ))}
                 </ul>

@@ -1,24 +1,33 @@
 import { useEffect, useState } from 'react';
+import { Route, Routes } from 'react-router-dom';
 import styles from './App.module.scss';
-import Header from './components/Header/Header';
-import HeaderPopup from './components/HeaderPopup/HeaderPopup';
-import Intro from './components/Intro/Intro';
-import Footer from './components/Footer/Footer';
-import About from './components/About/About';
-import Services from './components/Services/Services';
-import Form from './components/Form/Form';
-import Mission from './components/Mission/Mission';
-import Quote from './components/Quote/Quote';
-import Video from './components/Video/Video';
-import Team from './components/Team/Team';
-import Partners from './components/Partners/Partners';
-import Cooperation from './components/Cooperation/Cooperation';
+
+import Home from './pages/Home';
+import Events from './pages/Events';
+import Music from './pages/Music';
+import Photo from './pages/Photo';
+import Marketing from './pages/Marketing';
+import Policy from './pages/Policy/Policy';
+import Briff from './pages/Briff';
 
 function App() {
   const [burgerActive, setBurgerActive] = useState(false);
 
   const [selectedLanguage, setSelectedLanguage] = useState('ru');
   const [translation, setTranslation] = useState(null);
+
+  const headerNested = true;
+
+  // Скрытие скролла body во время burger
+  useEffect(() => {
+    if (burgerActive) {
+      document.body.style.overflow = 'hidden';
+
+      return () => {
+        document.body.style.overflow = 'auto';
+      };
+    }
+  }, [burgerActive]);
 
   useEffect(() => {
     // Получить выбранный язык из localstorage
@@ -51,35 +60,76 @@ function App() {
 
   return (
     <div className={styles.app}>
-      <Header
-        burgerActive={burgerActive}
-        setBurgerActive={setBurgerActive}
-        navigationArray={translation?.index?.navigation || []}
-        handleLanguageChanges={handleLanguageChanges}
-      />
-
-      {burgerActive && (
-        <HeaderPopup
-          burgerActive={burgerActive}
-          navigationArray={translation?.index?.navigation || []}
-          handleLanguageChanges={handleLanguageChanges}
+      <Routes>
+        <Route
+          path="/"
+          element={
+            <Home
+              translation={translation}
+              burgerActive={burgerActive}
+              setBurgerActive={setBurgerActive}
+              handleLanguageChanges={handleLanguageChanges}
+            />
+          }
         />
-      )}
-
-      <main className={styles.app__main}>
-        {/* <Intro translationArray={translation?.index?.intro || []} />
-        <About translationObj={translation?.index?.about || []} />
-        <Services translationObj={translation?.index?.services || []} /> */}
-        <Form />
-        <Mission />
-        <Quote />
-        <Video />
-        <Team />
-        <Partners />
-        <Cooperation />
-      </main>
-
-      <Footer />
+        <Route
+          path="/events"
+          element={
+            <Events
+              translation={translation}
+              burgerActive={burgerActive}
+              setBurgerActive={setBurgerActive}
+              handleLanguageChanges={handleLanguageChanges}
+              headerNested={headerNested}
+            />
+          }
+        />
+        <Route
+          path="/music_dance"
+          element={
+            <Music
+              translation={translation}
+              burgerActive={burgerActive}
+              setBurgerActive={setBurgerActive}
+              handleLanguageChanges={handleLanguageChanges}
+            />
+          }
+        />
+        <Route
+          path="/photo_and_video"
+          element={
+            <Photo
+              translation={translation}
+              burgerActive={burgerActive}
+              setBurgerActive={setBurgerActive}
+              handleLanguageChanges={handleLanguageChanges}
+            />
+          }
+        />
+        <Route
+          path="/marketing_and_brandin"
+          element={
+            <Marketing
+              translation={translation}
+              burgerActive={burgerActive}
+              setBurgerActive={setBurgerActive}
+              handleLanguageChanges={handleLanguageChanges}
+            />
+          }
+        />
+        <Route path="/policy" element={<Policy />} />
+        <Route
+          path="/briff"
+          element={
+            <Briff
+              translation={translation}
+              burgerActive={burgerActive}
+              setBurgerActive={setBurgerActive}
+              handleLanguageChanges={handleLanguageChanges}
+            />
+          }
+        />
+      </Routes>
     </div>
   );
 }

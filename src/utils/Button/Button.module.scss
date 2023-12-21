@@ -1,0 +1,46 @@
+@import "../../scss/mixins";
+$tablet: em(991.98); // Планшеты, некоторые телефоны в горизонтальном положении
+$mobile: em(767.98); // Телефоны L
+$mobileSmall: em(479.98); // Телефоны S
+
+.button {
+	font-size: rem(16);
+	@include adaptiveValue("font-size", 16, 14, 991.98, 320, 1);
+	line-height: 1.55;
+	font-weight: 500;
+	@include adaptiveValue("padding-top", 20, 10, 991.98, 320, 1);
+	@include adaptiveValue("padding-bottom", 20, 10, 991.98, 320, 1);
+	@include adaptiveValue("padding-left", 35, 10, 991.98, 320, 1);
+	@include adaptiveValue("padding-right", 35, 10, 991.98, 320, 1);
+
+	color: #f0c47f;
+	border: 1px solid #e6bc68;
+	text-transform: uppercase;
+
+	transition:
+		color 0.3s ease 0s,
+		border-color 0.3s ease 0s;
+
+	&:hover {
+		color: #fff;
+		border-color: #fff;
+	}
+
+	&.white {
+		color: #000;
+		background-color: #b8b8b8;
+		border: 1px solid #000;
+		&:hover {
+			color: #fff;
+			border-color: #fff;
+		}
+	}
+
+	&.black {
+		background-color: #000;
+	}
+
+	&.transparent {
+		background-color: transparent;
+	}
+}

@@ -11,6 +11,9 @@ $mobileSmall: em(479.98); // Телефоны S
 	width: 100%;
 	transition: background-color 0.3s ease 0.3s;
 
+	&.nested {
+		background-color: rgba($color: #000, $alpha: 0.7);
+	}
 	&.active {
 		background-color: #070a0a;
 	}
@@ -18,6 +21,7 @@ $mobileSmall: em(479.98); // Телефоны S
 	&__container {
 		display: flex;
 		align-items: center;
+		// justify-content: space-between;
 		column-gap: rem(80);
 
 		@media (max-width: $tablet) {
@@ -35,6 +39,9 @@ $mobileSmall: em(479.98); // Телефоны S
 	}
 
 	&__nav {
+		flex: 1;
+		display: flex;
+		justify-content: center;
 		@media (max-width: $tablet) {
 			display: none;
 		}

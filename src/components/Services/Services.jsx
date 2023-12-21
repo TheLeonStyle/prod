@@ -8,15 +8,15 @@ import image03 from '../../assets/img/services/03.svg';
 import image04 from '../../assets/img/services/04.svg';
 
 const images = {
-  '01': image01,
-  '02': image02,
-  '03': image03,
-  '04': image04,
+  image1: image01,
+  image2: image02,
+  image3: image03,
+  image4: image04,
 };
 
 const Services = ({ translationObj }) => {
   return (
-    <section className={styles.services}>
+    <section id="services" className={styles.services}>
       <div className={styles.services__container}>
         <div className={styles.services__text}>
           <Title title={translationObj.title} />
@@ -24,17 +24,19 @@ const Services = ({ translationObj }) => {
         <div className={styles.services__items}>
           {translationObj.array &&
             translationObj.array.map((obj) => (
-              <a href="" className={styles.services__item} key={obj.title}>
+              <div className={styles.services__item} key={obj.title}>
                 <div className={styles.services__icon}>
-                  <img src={images[obj.image]} alt="Иконка услуг" />
+                  <img src={images[`image${obj.image}`]} alt="Иконка услуг" />
                 </div>
                 <h6 className={styles.services__title}>{obj.title}</h6>
                 <ul className={styles.services__lists}>
                   {obj.list.map((text) => (
-                    <li className={styles.services__list}>{text}</li>
+                    <li className={styles.services__list} key={text}>
+                      {text}
+                    </li>
                   ))}
                 </ul>
-              </a>
+              </div>
             ))}
           {/* <a href="" className={styles.services__item}>
             <div className={styles.services__icon}>

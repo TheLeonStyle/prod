@@ -4,14 +4,17 @@ $mobile: em(767.98); // Телефоны L
 $mobileSmall: em(479.98); // Телефоны S
 
 .form {
-	padding: 50px 0;
+	@include adaptiveValue("padding-top", 50, 30, 1230, 320, 1);
+	@include adaptiveValue("padding-bottom", 50, 30, 1230, 320, 1);
 	background: url("../../assets/img/form/bg.jpg");
 	background-size: cover;
 	&__container {
 		display: flex;
+		gap: rem(20);
 
 		@media (max-width: $mobile) {
 			flex-direction: column;
+			gap: rem(0);
 		}
 	}
 	&__text {

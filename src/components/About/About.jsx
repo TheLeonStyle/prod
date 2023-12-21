@@ -6,7 +6,7 @@ import styles from './About.module.scss';
 
 const About = ({ translationObj }) => {
   return (
-    <section className={styles.about}>
+    <section id="about" className={styles.about}>
       <div className={styles.about__container}>
         <div className={styles.about__top}>
           <Title title={translationObj.title} subtitle={translationObj.subtitle} />

@@ -12,6 +12,7 @@ $mobileSmall: em(479.98); // Телефоны S
 	min-height: 300px;
 	max-height: 1000px;
 
+
 	@media (max-width: $mobile) {
 		background: url("../../assets/img/quote/bg_mobile.jpg") no-repeat;
 		background-position: 0 40%;

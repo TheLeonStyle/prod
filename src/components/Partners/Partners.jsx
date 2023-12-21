@@ -15,11 +15,11 @@ import Image9 from '../../assets/img/partners/9.png';
 import Image10 from '../../assets/img/partners/10.png';
 import Image11 from '../../assets/img/partners/11.png';
 
-const Partners = () => {
+const Partners = ({ translationObj }) => {
   return (
-    <section className={styles.partners}>
+    <section id="partners" className={styles.partners}>
       <div className={styles.partners__container}>
-        <Title title="Партнёры" />
+        <Title title={translationObj.title} />
         <div className={styles.partners__wrapper}>
           <div className={styles.partners__link}>
             <img src={Image1} alt="Партнёр" />

@@ -1,0 +1,24 @@
+@import "../../../scss/mixins";
+$tablet: em(991.98); // Планшеты, некоторые телефоны в горизонтальном положении
+$mobile: em(767.98); // Телефоны L
+$mobileSmall: em(479.98); // Телефоны S
+
+.about {
+	@include adaptiveValue("padding-top", 90, 30, 1230, 320, 1);
+	@include adaptiveValue("padding-bottom", 50, 30, 1230, 320, 1);
+	@media (max-width: $tablet) {
+		border-bottom: 1px solid #333;
+	}
+	&__container {
+		display: flex;
+		justify-content: center;
+	}
+	&__text {
+		max-width: 760px;
+		font-size: rem(22);
+		line-height: 1.55;
+		strong {
+			font-weight: 700;
+		}
+	}
+}

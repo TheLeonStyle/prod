@@ -3,7 +3,8 @@ $tablet: em(991.98); // Планшеты, некоторые телефоны в
 $mobile: em(767.98); // Телефоны L
 $mobileSmall: em(479.98); // Телефоны S
 .services {
-	padding: 90px 0;
+	@include adaptiveValue("padding-top", 90, 30, 1230, 320, 1);
+	@include adaptiveValue("padding-bottom", 90, 30, 1230, 320, 1);
 
 	&__container {
 		display: flex;
@@ -35,9 +36,12 @@ $mobileSmall: em(479.98); // Телефоны S
 		padding: 30px 20px;
 		transition: background 0.3s ease 0s;
 
-		&:hover {
-			background: linear-gradient(45deg, #000 0%, #000 100%);
+		@media (any-hover: hover) {
+			&:hover {
+				background: linear-gradient(45deg, #000 0%, #000 100%);
+			}
 		}
+
 		@media (max-width: $tablet) {
 			max-width: 100%;
 		}
