@@ -1,6 +1,10 @@
 const canvas = document.getElementById('canvas');
 canvas.style.width = '100vw';
 canvas.style.height = '100vh';
+canvas.style.position = 'absolute';
+canvas.style.top = '0';
+canvas.style.left = '0';
+canvas.style.zIndex = '10000';
 
 canvas.width = canvas.clientWidth;
 canvas.height = canvas.clientHeight;
