@@ -14,7 +14,7 @@
           },
           {
             "text": "Маркетинг и брендинг",
-            "link": "music_dance"
+            "link": "marketing_and_brandin"
           },
           {
             "text": "Фото и видео",
@@ -22,7 +22,7 @@
           },
           {
             "text": "Музыка и танцы",
-            "link": "marketing_and_brandin"
+            "link": "music_dance"
           }
         ],
         "link": "services"
@@ -72,6 +72,7 @@
       "title": "Услуги",
       "array": [
         {
+          "link": "music_dance",
           "image": "1",
           "title": "Музыка и танцы",
           "list": [
@@ -82,6 +83,7 @@
           ]
         },
         {
+          "link": "photo_and_video",
           "image": "2",
           "title": "Фото и видео",
           "list": [
@@ -92,6 +94,7 @@
           ]
         },
         {
+          "link": "marketing_and_brandin",
           "image": "3",
           "title": "Маркетинг и брендинг",
           "list": [
@@ -102,6 +105,7 @@
           ]
         },
         {
+          "link": "events",
           "image": "4",
           "title": "Организация мероприятий",
           "list": [
@@ -299,7 +303,7 @@
           },
           {
             "text": "Маркетинг и брендинг",
-            "link": "music_dance"
+            "link": "marketing_and_brandin"
           },
           {
             "text": "Фото и видео",
@@ -307,7 +311,7 @@
           },
           {
             "text": "Музыка и танцы",
-            "link": "marketing_and_brandin"
+            "link": "music_dance"
           }
         ],
         "link": "services"
