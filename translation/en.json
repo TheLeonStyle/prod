@@ -131,6 +131,10 @@
         "policy": {
           "text": "By submitting a request, you accept the terms of the",
           "privacy": "privacy policy"
+        },
+        "error": {
+          "field": "Obligatory field",
+          "label": "Please fill in all required fields"
         }
       }
     },
